@@ -1,0 +1,803 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{a3d716d6-852c-477a-9d05-cf6c02ffd3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{d73f4425-0fd0-4973-940c-d8211134c81e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\00. Header">
+      <UniqueIdentifier>{0d58a1b6-43d7-49c2-942d-007994630161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01. Engine">
+      <UniqueIdentifier>{8e47f385-fad9-451f-a850-2fee463737eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager">
+      <UniqueIdentifier>{16c4fec6-3f97-435d-98e8-9f476ba0090a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{4cdb7eed-08e8-4f6c-b01c-07f2e0c28105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\01. KeyManager">
+      <UniqueIdentifier>{12609d51-cc52-4692-9562-75d2dcaad8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\02. TimeManager">
+      <UniqueIdentifier>{0b24a919-a7e1-4e34-866d-3d9312160207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\03. LevelManager">
+      <UniqueIdentifier>{c5397a2e-e77d-4d1d-b0ed-24a45edd516e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level">
+      <UniqueIdentifier>{75df8259-5916-4aae-a407-6541bfcac421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object">
+      <UniqueIdentifier>{0961fa24-9a5c-4401-a4b2-cdb3801bc37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component">
+      <UniqueIdentifier>{3ddcda7b-45bd-4790-81be-d8be056bc045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource">
+      <UniqueIdentifier>{50024349-3173-4caf-b796-17497067b957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\01. Texture">
+      <UniqueIdentifier>{0c32c796-b826-4783-b5ea-40770e0e8168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\06. Resource\02. Sound">
+      <UniqueIdentifier>{d3cd94dd-fae7-42ef-94f4-ce536ddd8dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\01. Collider">
+      <UniqueIdentifier>{3011ed52-20eb-47b6-ba52-a7de26ba9d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\02. Animator">
+      <UniqueIdentifier>{d6941da5-56a1-4f8d-8787-2b11449e9668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\04. Camera">
+      <UniqueIdentifier>{fd3a41d5-94b8-44da-9e8d-0e4837637340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\05. PathManager">
+      <UniqueIdentifier>{346b704b-3c9c-459e-b0f1-3ed92efbbbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\06. ResourceManager">
+      <UniqueIdentifier>{c5f5bc53-04ea-41ae-81da-e72d9d5325cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\07. EventManager">
+      <UniqueIdentifier>{adf0dea1-3676-469f-8148-9b9204f4d588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\00. Editor">
+      <UniqueIdentifier>{d5268848-0e5c-403e-a840-51de1c978a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\08. CollisionManager">
+      <UniqueIdentifier>{0034f7ff-309d-4f15-a9d4-16cfd63adb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\03. Rigidbody">
+      <UniqueIdentifier>{be3dd6d4-c02d-4228-93ba-f3fa34fe7b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\02. Map">
+      <UniqueIdentifier>{b46e97be-81e6-4a1b-91b1-0d4e2eb1005d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\02. Map\Ground">
+      <UniqueIdentifier>{92f90d31-1b54-42f0-8fc7-56c553c60d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\02. Map\Obstacle">
+      <UniqueIdentifier>{2c629738-9905-43e6-8e68-02694b106eaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\02. Map\Background">
+      <UniqueIdentifier>{71704885-9c8a-4337-88d7-958282ac49f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player">
+      <UniqueIdentifier>{fef76b4c-c9b9-4247-a8ab-4dd4e36a9c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI">
+      <UniqueIdentifier>{8f4aa2a3-c02e-46bb-b0da-2c82c24ca798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\09. UIManager">
+      <UniqueIdentifier>{a0e60ca9-e206-48ef-976d-92f523f30da4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Panel UI">
+      <UniqueIdentifier>{80068f54-8b77-4f88-8bae-8f8bdb1d8cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Button UI">
+      <UniqueIdentifier>{f8c144ea-dd27-4241-8a9f-7690e88d0f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Grid UI">
+      <UniqueIdentifier>{3c26e153-8503-46d4-8e6f-5ea2d7cd28ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\02. Map\Jelly">
+      <UniqueIdentifier>{a529152f-a611-4c17-b461-8a09c88ebab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Button UI\MapTileBtn">
+      <UniqueIdentifier>{22516a07-d108-495d-a65a-ace730ee01d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05. Component\04. FSM">
+      <UniqueIdentifier>{b9c08aa8-94e1-4cd3-9e04-475929c3a670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Player_State">
+      <UniqueIdentifier>{9ced8300-32a6-46b0-bf2a-a414ba7f839e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Cookies">
+      <UniqueIdentifier>{87258b27-a91a-47e4-ad7d-ab1761f44760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet">
+      <UniqueIdentifier>{6c215884-fd68-4dbb-bc8d-7a966a6bedc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\00. ChocoDrop">
+      <UniqueIdentifier>{0ab5c3ba-c2e9-442a-8d1f-080d381e7883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\Pet_State">
+      <UniqueIdentifier>{74b8bfc8-c27c-4f01-a763-ecabd5e6c4b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\Pet_State\Bonus">
+      <UniqueIdentifier>{2df2da28-612c-47bf-a41e-0fe590cb964d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Player_State\Bonus">
+      <UniqueIdentifier>{43efaf7a-6569-448d-a26d-a7a17e6da888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Progress Bar">
+      <UniqueIdentifier>{702b192b-aa63-4a0a-b37b-d21ec36b07d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Progress Bar\HPBar">
+      <UniqueIdentifier>{2742754c-dd16-496f-b41f-932608a0d21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Text UI">
+      <UniqueIdentifier>{5fa01ef5-2487-4bcd-9d65-42baef286ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Cookies\MilkCookie">
+      <UniqueIdentifier>{6c47e835-0b3e-4406-894b-2a4118d6b7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\01. MilkBottle">
+      <UniqueIdentifier>{42921e32-a1a8-4c3f-be99-dff9e7bdf1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\Pet_State\Skill">
+      <UniqueIdentifier>{f9e481d0-917c-458d-9cb4-1d05be7483ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\05. Effect">
+      <UniqueIdentifier>{37fe0588-a7d2-40e5-9351-17d272dc8d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\01. Intro">
+      <UniqueIdentifier>{4101918f-ef4a-4145-9b34-cb3093ac9f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\02. Select">
+      <UniqueIdentifier>{49c254ca-52b3-4939-a6fb-fb4944b545f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\04. GamePlay">
+      <UniqueIdentifier>{9a9b5135-4eab-4915-b251-31da0ba11b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\04. GamePlay\02. Bonus">
+      <UniqueIdentifier>{5f99dd28-890b-4a85-8c58-3093e0039e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\04. GamePlay\01. Stage1">
+      <UniqueIdentifier>{5956c69b-f247-490e-9196-96beef909328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\03. Load">
+      <UniqueIdentifier>{fa98fb3d-c558-4d75-bb86-dbc5e2a58df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\03. Level\05. Result">
+      <UniqueIdentifier>{02dd5917-c9f5-4e28-929e-0d79cd0a5050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Button UI\SelectBtn">
+      <UniqueIdentifier>{d939da85-c26a-4078-acf4-a0e95c48233d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02. Manager\10. SoundManager">
+      <UniqueIdentifier>{6c194592-9383-4650-805e-231b5f39cbb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Progress Bar\BonusBar">
+      <UniqueIdentifier>{f6fef24f-489c-4667-b8f7-9a5cb179610b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\01. UI\Progress Bar\CookieSkillBar">
+      <UniqueIdentifier>{5eecfe5d-1381-461b-80bc-919119dbad7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Cookies\FairyCookie">
+      <UniqueIdentifier>{fc3cd358-0267-4952-a52f-25333f78c187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\02. FlowerPod">
+      <UniqueIdentifier>{77490faf-9d33-4447-b0d0-6e239a6c5330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Player_State\Skill">
+      <UniqueIdentifier>{5a558002-4e20-40f0-82da-9e2d494226b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Cookies\GingerBrave">
+      <UniqueIdentifier>{6e5eb731-f10b-4df0-9ed4-e6f2dfd3e25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\03. Player\Cookies\SnowSugarCookie">
+      <UniqueIdentifier>{291c780c-aa1f-4dd8-aaec-9f8c3bf41488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\04. Object\04. Pet\03. SnowGlobe">
+      <UniqueIdentifier>{c96846ea-9226-4119-b795-78406d793948}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CookieRun_OvenBreak.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="def.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>Game\00. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CEngine.h">
+      <Filter>Game\01. Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyManager.h">
+      <Filter>Game\02. Manager\01. KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>Game\02. Manager\02. TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevel.h">
+      <Filter>Game\03. Level</Filter>
+    </ClInclude>
+    <ClInclude Include="CLevelManager.h">
+      <Filter>Game\02. Manager\03. LevelManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>Game\04. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\05. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\06. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\06. Resource\01. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Game\05. Component\01. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>Game\02. Manager\04. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Game\05. Component\02. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Game\05. Component\02. Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CPathManager.h">
+      <Filter>Game\02. Manager\05. PathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceManager.h">
+      <Filter>Game\02. Manager\06. ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventManager.h">
+      <Filter>Game\02. Manager\07. EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditorLevel.h">
+      <Filter>Game\03. Level\00. Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapTile.h">
+      <Filter>Game\04. Object\02. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>Game\04. Object\02. Map\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidbody.h">
+      <Filter>Game\05. Component\03. Rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollisionManager.h">
+      <Filter>Game\02. Manager\08. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObstacle.h">
+      <Filter>Game\04. Object\02. Map\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackground.h">
+      <Filter>Game\04. Object\02. Map\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Game\04. Object\01. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIManager.h">
+      <Filter>Game\02. Manager\09. UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Game\04. Object\01. UI\Panel UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonUI.h">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPreview.h" />
+    <ClInclude Include="CMapTileBtn.h">
+      <Filter>Game\04. Object\01. UI\Button UI\MapTileBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrid.h">
+      <Filter>Game\04. Object\01. UI\Grid UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CFSM.h">
+      <Filter>Game\05. Component\04. FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CRunState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CJumpState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlideState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoubleJumpState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrashState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CCrashDeadState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CStage1.h">
+      <Filter>Game\03. Level\04. GamePlay\01. Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusStage.h">
+      <Filter>Game\03. Level\04. GamePlay\02. Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CPet.h">
+      <Filter>Game\04. Object\04. Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Game\04. Object\03. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetChocoDrop.h">
+      <Filter>Game\04. Object\04. Pet\00. ChocoDrop</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetIdleState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetSkillState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetMagnetState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetBonusEnterState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetBonusIdleState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetBonusJumpState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetBonusExitState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusEnterState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusExitState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusIdleState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusJumpState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClInclude>
+    <ClInclude Include="CJelly.h">
+      <Filter>Game\04. Object\02. Map\Jelly</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeadState.h">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClInclude>
+    <ClInclude Include="CProgressBarUI.h">
+      <Filter>Game\04. Object\01. UI\Progress Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpBarUI.h">
+      <Filter>Game\04. Object\01. UI\Progress Bar\HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CJumpBtn.h">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlideBtn.h">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMilkCookie.h">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetMilkBottle.h">
+      <Filter>Game\04. Object\04. Pet\01. MilkBottle</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>Game\04. Object\05. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackgroundEffect.h">
+      <Filter>Game\04. Object\05. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CMilkSkillState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CMilkShield.h">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CMilkMonster.h">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CMilkBottleSkillState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CIntroLevel.h">
+      <Filter>Game\03. Level\01. Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectLevel.h">
+      <Filter>Game\03. Level\02. Select</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadLevel.h">
+      <Filter>Game\03. Level\03. Load</Filter>
+    </ClInclude>
+    <ClInclude Include="CSelectBtn.h">
+      <Filter>Game\04. Object\01. UI\Button UI\SelectBtn</Filter>
+    </ClInclude>
+    <ClInclude Include="CResultLevel.h">
+      <Filter>Game\03. Level\05. Result</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextUI.h">
+      <Filter>Game\04. Object\01. UI\Text UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Game\06. Resource\02. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Game\02. Manager\10. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CBonusBar.h">
+      <Filter>Game\04. Object\01. UI\Progress Bar\BonusBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CCookieSkillBar.h">
+      <Filter>Game\04. Object\01. UI\Progress Bar\CookieSkillBar</Filter>
+    </ClInclude>
+    <ClInclude Include="CFairyCookie.h">
+      <Filter>Game\04. Object\03. Player\Cookies\FairyCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetFlowerPod.h">
+      <Filter>Game\04. Object\04. Pet\02. FlowerPod</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlowerPodSkillState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CFairyShield.h">
+      <Filter>Game\04. Object\03. Player\Cookies\FairyCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CGingerBraveCookie.h">
+      <Filter>Game\04. Object\03. Player\Cookies\GingerBrave</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnowSugarCookie.h">
+      <Filter>Game\04. Object\03. Player\Cookies\SnowSugarCookie</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnowSugarSkillState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnowSugarSkillExitState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnowSugarSkillEnterState.h">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetSnowGlobe.h">
+      <Filter>Game\04. Object\04. Pet\03. SnowGlobe</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnowGlobeSkillState.h">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlatform.h">
+      <Filter>Game\04. Object\02. Map\Ground</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="func.cpp">
+      <Filter>Game\00. Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CEngine.cpp">
+      <Filter>Game\01. Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="CKeyManager.cpp">
+      <Filter>Game\02. Manager\01. KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>Game\02. Manager\02. TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevel.cpp">
+      <Filter>Game\03. Level</Filter>
+    </ClCompile>
+    <ClCompile Include="CLevelManager.cpp">
+      <Filter>Game\02. Manager\03. LevelManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>Game\04. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\05. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\06. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\06. Resource\01. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Game\05. Component\01. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CCamera.cpp">
+      <Filter>Game\02. Manager\04. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Game\05. Component\02. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Game\05. Component\02. Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CPathManager.cpp">
+      <Filter>Game\02. Manager\05. PathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceManager.cpp">
+      <Filter>Game\02. Manager\06. ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventManager.cpp">
+      <Filter>Game\02. Manager\07. EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditorLevel.cpp">
+      <Filter>Game\03. Level\00. Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapTile.cpp">
+      <Filter>Game\04. Object\02. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>Game\04. Object\02. Map\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidbody.cpp">
+      <Filter>Game\05. Component\03. Rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollisionManager.cpp">
+      <Filter>Game\02. Manager\08. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CObstacle.cpp">
+      <Filter>Game\04. Object\02. Map\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackground.cpp">
+      <Filter>Game\04. Object\02. Map\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Game\04. Object\01. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIManager.cpp">
+      <Filter>Game\02. Manager\09. UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Game\04. Object\01. UI\Panel UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonUI.cpp">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPreview.cpp" />
+    <ClCompile Include="CMapTileBtn.cpp">
+      <Filter>Game\04. Object\01. UI\Button UI\MapTileBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrid.cpp">
+      <Filter>Game\04. Object\01. UI\Grid UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CFSM.cpp">
+      <Filter>Game\05. Component\04. FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CRunState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CJumpState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlideState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoubleJumpState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrashState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CCrashDeadState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CStage1.cpp">
+      <Filter>Game\03. Level\04. GamePlay\01. Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusStage.cpp">
+      <Filter>Game\03. Level\04. GamePlay\02. Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CPet.cpp">
+      <Filter>Game\04. Object\04. Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Game\04. Object\03. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetChocoDrop.cpp">
+      <Filter>Game\04. Object\04. Pet\00. ChocoDrop</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetIdleState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetSkillState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetMagnetState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetBonusEnterState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetBonusIdleState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetBonusJumpState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetBonusExitState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusEnterState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusExitState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusIdleState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusJumpState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Bonus</Filter>
+    </ClCompile>
+    <ClCompile Include="CJelly.cpp">
+      <Filter>Game\04. Object\02. Map\Jelly</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeadState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State</Filter>
+    </ClCompile>
+    <ClCompile Include="CProgressBarUI.cpp">
+      <Filter>Game\04. Object\01. UI\Progress Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpBarUI.cpp">
+      <Filter>Game\04. Object\01. UI\Progress Bar\HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CJumpBtn.cpp">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlideBtn.cpp">
+      <Filter>Game\04. Object\01. UI\Button UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilkCookie.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetMilkBottle.cpp">
+      <Filter>Game\04. Object\04. Pet\01. MilkBottle</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>Game\04. Object\05. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackgroundEffect.cpp">
+      <Filter>Game\04. Object\05. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilkSkillState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilkShield.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilkMonster.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\MilkCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CMilkBottleSkillState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CIntroLevel.cpp">
+      <Filter>Game\03. Level\01. Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectLevel.cpp">
+      <Filter>Game\03. Level\02. Select</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadLevel.cpp">
+      <Filter>Game\03. Level\03. Load</Filter>
+    </ClCompile>
+    <ClCompile Include="CSelectBtn.cpp">
+      <Filter>Game\04. Object\01. UI\Button UI\SelectBtn</Filter>
+    </ClCompile>
+    <ClCompile Include="CResultLevel.cpp">
+      <Filter>Game\03. Level\05. Result</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextUI.cpp">
+      <Filter>Game\04. Object\01. UI\Text UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Game\06. Resource\02. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Game\02. Manager\10. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBonusBar.cpp">
+      <Filter>Game\04. Object\01. UI\Progress Bar\BonusBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CCookieSkillBar.cpp">
+      <Filter>Game\04. Object\01. UI\Progress Bar\CookieSkillBar</Filter>
+    </ClCompile>
+    <ClCompile Include="CFairyCookie.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\FairyCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetFlowerPod.cpp">
+      <Filter>Game\04. Object\04. Pet\02. FlowerPod</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlowerPodSkillState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CFairyShield.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\FairyCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CGingerBraveCookie.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\GingerBrave</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnowSugarCookie.cpp">
+      <Filter>Game\04. Object\03. Player\Cookies\SnowSugarCookie</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnowSugarSkillState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnowSugarSkillEnterState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnowSugarSkillExitState.cpp">
+      <Filter>Game\04. Object\03. Player\Player_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetSnowGlobe.cpp">
+      <Filter>Game\04. Object\04. Pet\03. SnowGlobe</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnowGlobeSkillState.cpp">
+      <Filter>Game\04. Object\04. Pet\Pet_State\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlatform.cpp">
+      <Filter>Game\04. Object\02. Map\Ground</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CookieRun_OvenBreak.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="CookieRun_OvenBreak.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

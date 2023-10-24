@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e7f51e54-3b6a-474c-92fb-4c9a52131290}</ProjectGuid>
+    <RootNamespace>WinAPICookieRunOvenBreak</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CookieRun_OvenBreak</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)OutputFile\bin_d\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)OutputFile\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>10485760</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>10485760</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CAnimation.h" />
+    <ClInclude Include="CAnimator.h" />
+    <ClInclude Include="CBackground.h" />
+    <ClInclude Include="CBackgroundEffect.h" />
+    <ClInclude Include="CBonusBar.h" />
+    <ClInclude Include="CBonusEnterState.h" />
+    <ClInclude Include="CBonusExitState.h" />
+    <ClInclude Include="CBonusIdleState.h" />
+    <ClInclude Include="CBonusJumpState.h" />
+    <ClInclude Include="CBonusStage.h" />
+    <ClInclude Include="CButtonUI.h" />
+    <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CCollider.h" />
+    <ClInclude Include="CCollisionManager.h" />
+    <ClInclude Include="CComponent.h" />
+    <ClInclude Include="CCookieSkillBar.h" />
+    <ClInclude Include="CCrashDeadState.h" />
+    <ClInclude Include="CCrashState.h" />
+    <ClInclude Include="CDeadState.h" />
+    <ClInclude Include="CDoubleJumpState.h" />
+    <ClInclude Include="CEditorLevel.h" />
+    <ClInclude Include="CEffect.h" />
+    <ClInclude Include="CEngine.h" />
+    <ClInclude Include="CEntity.h" />
+    <ClInclude Include="CEventManager.h" />
+    <ClInclude Include="CFairyCookie.h" />
+    <ClInclude Include="CFairyShield.h" />
+    <ClInclude Include="CFlowerPodSkillState.h" />
+    <ClInclude Include="CFSM.h" />
+    <ClInclude Include="CGingerBraveCookie.h" />
+    <ClInclude Include="CGrid.h" />
+    <ClInclude Include="CGround.h" />
+    <ClInclude Include="CHpBarUI.h" />
+    <ClInclude Include="CIntroLevel.h" />
+    <ClInclude Include="CJelly.h" />
+    <ClInclude Include="CJumpBtn.h" />
+    <ClInclude Include="CJumpState.h" />
+    <ClInclude Include="CKeyManager.h" />
+    <ClInclude Include="CLevel.h" />
+    <ClInclude Include="CLevelManager.h" />
+    <ClInclude Include="CLoadLevel.h" />
+    <ClInclude Include="CMapTileBtn.h" />
+    <ClInclude Include="CMilkBottleSkillState.h" />
+    <ClInclude Include="CMilkCookie.h" />
+    <ClInclude Include="CMilkMonster.h" />
+    <ClInclude Include="CMilkShield.h" />
+    <ClInclude Include="CObj.h" />
+    <ClInclude Include="CObstacle.h" />
+    <ClInclude Include="CPanelUI.h" />
+    <ClInclude Include="CPathManager.h" />
+    <ClInclude Include="CMapTile.h" />
+    <ClInclude Include="CPet.h" />
+    <ClInclude Include="CPetBonusEnterState.h" />
+    <ClInclude Include="CPetBonusExitState.h" />
+    <ClInclude Include="CPetBonusIdleState.h" />
+    <ClInclude Include="CPetBonusJumpState.h" />
+    <ClInclude Include="CPetChocoDrop.h" />
+    <ClInclude Include="CPetFlowerPod.h" />
+    <ClInclude Include="CPetIdleState.h" />
+    <ClInclude Include="CPetMagnetState.h" />
+    <ClInclude Include="CPetMilkBottle.h" />
+    <ClInclude Include="CPetSkillState.h" />
+    <ClInclude Include="CPetSnowGlobe.h" />
+    <ClInclude Include="CPlatform.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CPreview.h" />
+    <ClInclude Include="CProgressBarUI.h" />
+    <ClInclude Include="CResource.h" />
+    <ClInclude Include="CResourceManager.h" />
+    <ClInclude Include="CResultLevel.h" />
+    <ClInclude Include="CRigidbody.h" />
+    <ClInclude Include="CRunState.h" />
+    <ClInclude Include="CMilkSkillState.h" />
+    <ClInclude Include="CSelectBtn.h" />
+    <ClInclude Include="CSelectLevel.h" />
+    <ClInclude Include="CSlideBtn.h" />
+    <ClInclude Include="CSlideState.h" />
+    <ClInclude Include="CSnowGlobeSkillState.h" />
+    <ClInclude Include="CSnowSugarSkillEnterState.h" />
+    <ClInclude Include="CSnowSugarCookie.h" />
+    <ClInclude Include="CSnowSugarSkillExitState.h" />
+    <ClInclude Include="CSnowSugarSkillState.h" />
+    <ClInclude Include="CSound.h" />
+    <ClInclude Include="CSoundManager.h" />
+    <ClInclude Include="CStage1.h" />
+    <ClInclude Include="CState.h" />
+    <ClInclude Include="CTextUI.h" />
+    <ClInclude Include="CTexture.h" />
+    <ClInclude Include="CTimeManager.h" />
+    <ClInclude Include="CUI.h" />
+    <ClInclude Include="CUIManager.h" />
+    <ClInclude Include="def.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="CookieRun_OvenBreak.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAnimation.cpp" />
+    <ClCompile Include="CAnimator.cpp" />
+    <ClCompile Include="CBackground.cpp" />
+    <ClCompile Include="CBackgroundEffect.cpp" />
+    <ClCompile Include="CBonusBar.cpp" />
+    <ClCompile Include="CBonusEnterState.cpp" />
+    <ClCompile Include="CBonusExitState.cpp" />
+    <ClCompile Include="CBonusIdleState.cpp" />
+    <ClCompile Include="CBonusJumpState.cpp" />
+    <ClCompile Include="CBonusStage.cpp" />
+    <ClCompile Include="CButtonUI.cpp" />
+    <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CCollider.cpp" />
+    <ClCompile Include="CCollisionManager.cpp" />
+    <ClCompile Include="CComponent.cpp" />
+    <ClCompile Include="CCookieSkillBar.cpp" />
+    <ClCompile Include="CCrashDeadState.cpp" />
+    <ClCompile Include="CCrashState.cpp" />
+    <ClCompile Include="CDeadState.cpp" />
+    <ClCompile Include="CDoubleJumpState.cpp" />
+    <ClCompile Include="CEditorLevel.cpp" />
+    <ClCompile Include="CEffect.cpp" />
+    <ClCompile Include="CEngine.cpp" />
+    <ClCompile Include="CEntity.cpp" />
+    <ClCompile Include="CEventManager.cpp" />
+    <ClCompile Include="CFairyCookie.cpp" />
+    <ClCompile Include="CFairyShield.cpp" />
+    <ClCompile Include="CFlowerPodSkillState.cpp" />
+    <ClCompile Include="CFSM.cpp" />
+    <ClCompile Include="CGingerBraveCookie.cpp" />
+    <ClCompile Include="CGrid.cpp" />
+    <ClCompile Include="CGround.cpp" />
+    <ClCompile Include="CHpBarUI.cpp" />
+    <ClCompile Include="CIntroLevel.cpp" />
+    <ClCompile Include="CJelly.cpp" />
+    <ClCompile Include="CJumpBtn.cpp" />
+    <ClCompile Include="CJumpState.cpp" />
+    <ClCompile Include="CKeyManager.cpp" />
+    <ClCompile Include="CLevel.cpp" />
+    <ClCompile Include="CLevelManager.cpp" />
+    <ClCompile Include="CLoadLevel.cpp" />
+    <ClCompile Include="CMapTileBtn.cpp" />
+    <ClCompile Include="CMilkBottleSkillState.cpp" />
+    <ClCompile Include="CMilkCookie.cpp" />
+    <ClCompile Include="CMilkMonster.cpp" />
+    <ClCompile Include="CMilkShield.cpp" />
+    <ClCompile Include="CObj.cpp" />
+    <ClCompile Include="CObstacle.cpp" />
+    <ClCompile Include="CPanelUI.cpp" />
+    <ClCompile Include="CPathManager.cpp" />
+    <ClCompile Include="CMapTile.cpp" />
+    <ClCompile Include="CPet.cpp" />
+    <ClCompile Include="CPetBonusEnterState.cpp" />
+    <ClCompile Include="CPetBonusExitState.cpp" />
+    <ClCompile Include="CPetBonusIdleState.cpp" />
+    <ClCompile Include="CPetBonusJumpState.cpp" />
+    <ClCompile Include="CPetChocoDrop.cpp" />
+    <ClCompile Include="CPetFlowerPod.cpp" />
+    <ClCompile Include="CPetIdleState.cpp" />
+    <ClCompile Include="CPetMagnetState.cpp" />
+    <ClCompile Include="CPetMilkBottle.cpp" />
+    <ClCompile Include="CPetSkillState.cpp" />
+    <ClCompile Include="CPetSnowGlobe.cpp" />
+    <ClCompile Include="CPlatform.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CPreview.cpp" />
+    <ClCompile Include="CProgressBarUI.cpp" />
+    <ClCompile Include="CResource.cpp" />
+    <ClCompile Include="CResourceManager.cpp" />
+    <ClCompile Include="CResultLevel.cpp" />
+    <ClCompile Include="CRigidbody.cpp" />
+    <ClCompile Include="CRunState.cpp" />
+    <ClCompile Include="CMilkSkillState.cpp" />
+    <ClCompile Include="CSelectBtn.cpp" />
+    <ClCompile Include="CSelectLevel.cpp" />
+    <ClCompile Include="CSlideBtn.cpp" />
+    <ClCompile Include="CSlideState.cpp" />
+    <ClCompile Include="CSnowGlobeSkillState.cpp" />
+    <ClCompile Include="CSnowSugarSkillEnterState.cpp" />
+    <ClCompile Include="CSnowSugarCookie.cpp" />
+    <ClCompile Include="CSnowSugarSkillExitState.cpp" />
+    <ClCompile Include="CSnowSugarSkillState.cpp" />
+    <ClCompile Include="CSound.cpp" />
+    <ClCompile Include="CSoundManager.cpp" />
+    <ClCompile Include="CStage1.cpp" />
+    <ClCompile Include="CState.cpp" />
+    <ClCompile Include="CTextUI.cpp" />
+    <ClCompile Include="CTexture.cpp" />
+    <ClCompile Include="CTimeManager.cpp" />
+    <ClCompile Include="CUI.cpp" />
+    <ClCompile Include="CUIManager.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CookieRun_OvenBreak.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="CookieRun_OvenBreak.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
